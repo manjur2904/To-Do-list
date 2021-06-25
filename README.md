@@ -23,6 +23,6 @@ These are the mobile view of the Website:-
 
 ![Screenshot (410)](https://user-images.githubusercontent.com/83777365/123408619-d050d300-d5ca-11eb-9514-14f51125cf98.png)
 
-![Screenshot (412)](https://user-images.githubusercontent.com/83777365/123408656-dba3fe80-d5ca-11eb-9147-5efbd7b6c917.png)
-
 ![Screenshot (411)](https://user-images.githubusercontent.com/83777365/123408640-d646b400-d5ca-11eb-9842-e957af32f8cc.png)
+
+![Screenshot (412)](https://user-images.githubusercontent.com/83777365/123408656-dba3fe80-d5ca-11eb-9147-5efbd7b6c917.png)
