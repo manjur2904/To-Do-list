@@ -1,5 +1,14 @@
 # To-Do-list
 This is a To-Do list project.
-https://user-images.githubusercontent.com/83777365/123407149-42281d00-d5c9-11eb-929e-8cc2d2424d79.mp4
+
+For this projct I have used HTML, CSS and Javascript
+
+In this website 3 modes are given with three different color.
+
+Here is the demo video of this website :- 
+
+https://user-images.githubusercontent.com/83777365/123408019-312bdb80-d5ca-11eb-8b31-4a171c9916a6.mp4
+
 
 ![Screenshot (403)](https://user-images.githubusercontent.com/83777365/123407874-10638600-d5ca-11eb-8915-f450213ab1ae.png)
+
