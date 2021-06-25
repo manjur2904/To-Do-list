@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mode">
+        <button class="nice" onclick="niceMode()"></button>
+        <button class="light" onclick="lightMode()"></button>
+        <button class="dark" onclick="darkMode()"></button>
+    </div>
+    <h3 id="top">To-do list</h3>
+    <p id="top">Add, complete, and delete tasks</p>
+    <section id="section">
+        <div id="date"></div>
+        <div class="row">
+            <input type="text" id="toDoInput" placeholder="enter your task"/>
+            <button id="add-btn">Add</button>
+        </div>
+        <!-- task list container -->
+        <ul class="taskList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

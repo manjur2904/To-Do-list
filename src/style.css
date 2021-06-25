@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fec3a6;
+    padding: 5rem 0;
+}
+
+
+h3, p{
+    text-align: center;
+    /* color: #141301; */
+    opacity: 0.9;
+}
+h3{
+    text-transform: uppercase;
+    font: bold 34px/120% Georgia, serif;
+}
+p{
+    font: normal 16px/120% "Rubik", sans-serif;
+    padding: 0.3em 1rem;
+}
+li{
+     text-align: left;
+    font: 400 16px/120% "Rubik", sans-serif;
+    opacity: 0.9;
+    color: #141301;
+    margin-left: 10px;
+    flex: 1; 
+}
+#date{
+    font: 400 18px/120% "Rubik", sans-serif;
+    letter-spacing: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+section{
+    border: 3px solid #141301;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 1em 2rem;
+    background-color: #ffd1bb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+input[type="text"]{
+    padding: 0.5rem 0;
+    width: 500px;
+    max-width: 80%;
+    color: rgb(48, 47, 47);
+    cursor: text;
+    margin: 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #141301;
+    background-color: transparent;
+    font-size: 15px;
+}
+input:focus{
+    border-bottom: 2px solid #ccad9c;
+}
+input::placeholder{
+    /* color: #353131; */
+    font-size: 15px;
+}
+button:not(.check-btn){
+    text-transform: uppercase;
+    font: 400 15px/120% "Rubik", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #141301;
+    color: #f0f0f0;
+    outline: none;
+    border-radius: 10px;
+    border: 0;
+}
+button:not(.check-btn):hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+.taskList, .task{
+    width: 100%;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(241, 47, 47);
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 0.5em;
+    margin-bottom: 0.5em; 
+}
+.check-btn{
+    background-color: #fec3a6;
+    border: 1px solid #353131;
+    padding: 5px 8px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer; 
+}
+.change-color{
+    /* opacity: 0.7; */
+    background-color: rgb(66, 194, 66);
+}
+.strike-through{
+    text-decoration: line-through;
+}
+/* for dark and light mode */
+.mode{
+    display: flex;
+    justify-content: space-around;
+}
+button.light, button.dark, button.nice{
+    border: 2px solid white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+button.light{
+    background-color: #ffd1bb;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+button.dark{
+    background-color: #141301;
+    margin-left: 0.5rem;
+}
+button.nice{
+    background-color: #33FFBD;
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width:426px)
+{
+    h3{
+        font-size: 24px;
+    }
+    /* body:not(h3){
+        font-size: 20px;
+    } */
+    li, p, #date, button, input[type="text"], input::placeholder, .delete-btn{ 
+        font-size: 14px;
+    } 
+    p{
+        padding: 0.3em 1rem;
+    }
+    section .row{
+        flex-direction: column;
+    }
+    section{
+        max-width: 90%;
+        padding: 0.5em 1em;
+        margin: 2em 1em;
+    }
+    input[type="text"]{
+        max-width: 100%;
+    }
+    button{
+        margin-top: 1rem;
+        padding: 7px 10px;
+    }
+    .check-btn{
+        margin-top: 0;
+        padding: 3px 6px;
+    }
+    .delete-btn {
+        margin-top: 0;
+      }
+    
+      .task {
+        height: 40px;
+      }
+      button.light, button.dark, button.nice{
+        border: 2px solid white;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
